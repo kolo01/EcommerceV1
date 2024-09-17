@@ -1,0 +1,16 @@
+from django.db import models
+
+from base.models.helpers.date_time_model import DateTimeModel
+
+
+
+# Create your models here.
+class NamedDateTimeModel(DateTimeModel):
+
+    name = models.CharField(max_length=180)
+
+    class Meta:
+        abstract = True
+
+    def __str__(self):
+        return self.name
