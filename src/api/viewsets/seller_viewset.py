@@ -1,6 +1,7 @@
 from api.serializers.seller_serializer import SellerSerializer
 from rest_framework import viewsets
-from seller.models import SellerModel
+from users.models.seller_model import SellerModel
+
 
 
 class SellerViewset(viewsets.ModelViewSet):

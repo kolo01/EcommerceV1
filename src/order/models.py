@@ -10,5 +10,5 @@ from paiement.models import PaiementModel
 class OrderModel(DateTimeModel):
     cart = models.OneToOneField(CartModel,related_name="cart_ids",on_delete=models.CASCADE)
     payment = models.OneToOneField(PaiementModel,related_name="payment_ids",on_delete=models.SET_NULL, null=True)
-    total_amount = models.FloatField()
+    
     

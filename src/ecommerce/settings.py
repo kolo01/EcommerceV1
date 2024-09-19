@@ -40,15 +40,18 @@ INSTALLED_APPS = [
 
     # Installed packages
     'rest_framework',
+    'drf_yasg',
+    
 
     #Installed apps
     'base.apps.BaseConfig',
     'product.apps.ProductConfig',
     'cart.apps.CartConfig',
-    'seller.apps.SellerConfig',
+    'users.apps.UsersConfig',
     'order.apps.OrderConfig',
     'api.apps.ApiConfig',
     'paiement.apps.PaiementConfig',
+    'category.apps.CategoryConfig',
 ]
 
 MIDDLEWARE = [

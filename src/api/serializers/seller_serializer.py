@@ -1,5 +1,6 @@
 from rest_framework import serializers
-from seller.models import SellerModel
+from users.models.seller_model import SellerModel
+
 
 
 class SellerSerializer(serializers.ModelSerializer):
