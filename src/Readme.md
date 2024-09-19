@@ -112,7 +112,7 @@ Ce projet vise à etablir les bases pour la realisation du backend d'un forum
 
 - > #### On s'assure d'avoir creer une base de donnée dans Postegresql et on verifie la configuration dans le fichier settings.py contenu dans le dossier forum.
   >
-  > **_Un exemple de settings.py_** > ![Imgur](https://i.imgur.com/zmFELG2.png)
+  > **_Un exemple de configurations_** > ![Imgur](https://i.imgur.com/zmFELG2.png)
 
 - > #### On lance nos migrations avec
 
