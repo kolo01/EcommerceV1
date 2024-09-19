@@ -50,8 +50,7 @@ Ce projet vise à etablir les bases pour la realisation du backend d'un forum
 #
 
             - Ajout de produit au panier
-            - Ajout de produit au panier
-            - Ajout de produit au panier
+            - suppression de produit dans le panier
 
 ---
 
